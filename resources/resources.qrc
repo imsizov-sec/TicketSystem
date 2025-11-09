@@ -1,0 +1,62 @@
+<RCC>
+    <qresource prefix="/sql">
+        <file>sql/getChiefProjects.sql</file>
+        <file>sql/getEmployeeProjects.sql</file>
+        <file>sql/getPrioritiesIdAndName.sql</file>
+        <file>sql/getProjectsIdAndName.sql</file>
+        <file>sql/getTrackersIdAndName.sql</file>
+        <file>sql/getUserLoginInfo.sql</file>
+        <file>sql/getUserProfileInfo.sql</file>
+        <file>sql/getUsersIdAndFullName.sql</file>
+        <file>sql/getUserTickets.sql</file>
+        <file>sql/saveTicket.sql</file>
+        <file>sql/updateUserProfilePhoto.sql</file>
+        <file>sql/getStatusesIdAndName.sql</file>
+        <file>sql/updateTicketInfo.sql</file>
+        <file>sql/getFullTicketInfoById.sql</file>
+        <file>sql/deleteProject.sql</file>
+        <file>sql/getDepartmentIdByProject.sql</file>
+        <file>sql/getUsersByDepartment.sql</file>
+        <file>sql/saveTicketHistory.sql</file>
+        <file>sql/getTicketHistoryByTicketId.sql</file>
+        <file>sql/getTicketFilePath.sql</file>
+        <file>sql/saveTicketFile.sql</file>
+        <file>sql/getTicketFilesByTicketId.sql</file>
+        <file>sql/getTicketsByProject.sql</file>
+        <file>sql/getProjectIdByName.sql</file>
+        <file>sql/deleteTicketFilesByProject.sql</file>
+        <file>sql/deleteTicketHistoryByProject.sql</file>
+        <file>sql/deleteTicketsByProject.sql</file>
+        <file>sql/getUserDoneTickets.sql</file>
+        <file>sql/getUserDepartmentProjectStats.sql</file>
+        <file>sql/getUserTicketCountByPriority.sql</file>
+        <file>sql/getUserTicketCountByStatus.sql</file>
+        <file>sql/getDepartmentNameByUser.sql</file>
+        <file>sql/getDepartmentIdByUserId.sql</file>
+        <file>sql/insertUser.sql</file>
+        <file>sql/getUserInfoForEdit.sql</file>
+        <file>sql/getUserPasswordHash.sql</file>
+        <file>sql/updateUserPassword.sql</file>
+        <file>sql/updateUserProfile.sql</file>
+        <file>sql/getEmployeesByDepartment.sql</file>
+        <file>sql/getTicketsByEmployee.sql</file>
+        <file>sql/getStatusesWithoutEnding.sql</file>
+        <file>sql/updateTicketStatusOnly.sql</file>
+        <file>sql/getBossesIdAndFullName.sql</file>
+        <file>sql/getUserRoleById.sql</file>
+    </qresource>
+    <qresource prefix="/templates">
+        <file>templates/ticket_template.html</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icons/app_icon.png</file>
+        <file>icons/logo.png</file>
+        <file>icons/folder_closed.png</file>
+        <file>icons/folder_open.png</file>
+        <file>icons/edit.png</file>
+        <file>icons/refresh.png</file>
+    </qresource>
+    <qresource prefix="/certs">
+        <file>certs/cert.pem</file>
+    </qresource>
+</RCC>
